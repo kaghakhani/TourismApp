@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Intent intent = new Intent(MainActivity.this,ListActivity.class);
                 startActivity(intent);
+                finish();
 
             }
         }, 5000);
